@@ -6,10 +6,9 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "http-auth": "^4.1.9",
+    "http-auth": "4.2.0",
     "pug": "3.0.2"
   }
 }
