@@ -11,8 +11,7 @@ html(lang="ja")
         textarea(name="content" cols="40" rows="4")
       div
         button(type="submit") 送信
-
-  h2 投稿一覧
-  each content in contents
-    p #{content}
-    hr
+    h2 投稿一覧
+    each content in contents
+      p #{content}
+      hr
